@@ -1,0 +1,64 @@
+/*Universal styles*/
+
+html{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+body{
+    line-height: 1;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.main-content{
+    position: relative;
+    top: 4rem;
+}
+
+.flex{
+    display: flex;
+}
+
+/*Header*/
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+nav img{
+    height: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+nav{
+    display: flex;
+    padding: 1rem 0;
+    color: black;
+    opacity: 0.8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    margin-right: 1rem;
+}
+
+ul li{
+    display: inline;
+    padding: 1rem 0.666rem;
+    font-weight: 600;
+}
