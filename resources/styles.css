@@ -11,7 +11,7 @@ html {
   }
   
   .container {
-    max-width: 1050px;
+    max-width: 100%;
     margin: auto;
   }
   
@@ -25,12 +25,17 @@ html {
     font-size: 2rem;
     font-weight: bold;
   }
+
+  h2{
+    font-size: 1.8rem;
+    padding-bottom:
+  }
   
-  h2 {
-    font-size: 1.25rem;
+  h3 {
+    font-size: 1.8rem;
     color: #383838;
     font-weight: 600;
-    line-height: 1.45rem;
+    line-height: 1.4rem;
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -43,9 +48,9 @@ html {
   
   p {
     font-weight: 400;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.1rem;
-    color: gray;
+    color: #383838;
   }
   
   span {
@@ -150,7 +155,8 @@ html {
   
   .left-section {
     width: 60%;
-    padding: 32px 24px 24px 0px;
+    padding: 32px 24px 32px 0px;
+    border-bottom: 1px solid #DCDCDC; 
   }
   
   .left-section img {
@@ -158,14 +164,15 @@ html {
   }
   
   .right-section {
-    width: 440px;
+    width: 40%;
+    line-height: 1.5;
   }
   
   .tagline {
     height: auto;
     padding-left: 20px;
     margin-right: 60px;
-    margin-top: 6rem;
+    margin-top: 30%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -179,10 +186,14 @@ html {
   .tagline a {
     background-color: #383838;
     color: white;
+    margin-top: 8px;
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex: 0;
   }
   
   .tagline a:hover {
@@ -267,7 +278,12 @@ html {
   
   .left-section p {
     padding: 24px 24px 24px 0px;
-    width: 60%;
+    width: 100%;
+    line-height: 1.6;
+  }
+
+  .name{
+    font-weight: bold;
   }
   
   .content {
