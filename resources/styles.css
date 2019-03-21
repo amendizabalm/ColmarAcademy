@@ -145,16 +145,16 @@ html {
     display:inline-flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 32px;
+    margin-left: 24px;
   }
   
   .left-section {
-    flex-basis: 60%;
-    padding: 24px 24px 24px 0px;
+    width: 60%;
+    padding: 32px 24px 24px 0px;
   }
   
   .left-section img {
-    width: 100%;
+    width: 604px;
   }
   
   .right-section {
@@ -239,8 +239,26 @@ html {
   
   /* Keep Practicing Section */
   .practice {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 32px;
+  }
+
+  .practice .container{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    margin-left: -7px;
+  }
+
+  .left-section .container{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .left-section img{
+      width: 100%
   }
   
   .left-section h2 {
@@ -281,7 +299,7 @@ html {
   
   .practice .right-section {
     border-left: 1px solid #DCDCDC;
-    padding: 16px 0px 32px 0px;
+    padding: 16px 0px 32px 4px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
