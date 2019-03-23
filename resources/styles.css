@@ -15,9 +15,10 @@ html {
     margin-left: 24px;
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     .container {
-      width: 100%;
+    width: 100%;
+    margin-left: 0px;
     }
   }
   
@@ -131,7 +132,7 @@ html {
     display: none;
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     nav.desktop {
       display: none;
     }
@@ -168,7 +169,8 @@ html {
   }
   
   .left-section img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
   
   .right-section {
@@ -177,6 +179,7 @@ html {
   }
   
   .tagline {
+    width: 100%;
     height: auto;
     padding-left: 20px;
     margin: auto;
@@ -208,38 +211,56 @@ html {
     background-color: #808080;
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     .main-banner .container {
       display: flex;
       justify-content: space-between;
       flex-direction: column;
       align-items: center;
     }
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
   
     .main-banner .left-section {
       width: 100%;
       padding: 0px 0px;
     }
-  
-    .right-section {
-      width: 40%;
+
+    .right-section{
+        width: 80%;
+        
     }
   
     .tagline {
-      margin: 32px 24px;
+      padding-right: 40px;
       padding-left: 0px;
+      padding-bottom: 32px;
       align-items: center;
+      margin-left: 0px;
     }
   
     .tagline a {
       width: 50%;
     }
-  }
   
-  @media only screen and (max-width: 480px) {
+  .left-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .h2{
+      width: 100%
+  }
+}
+  
+  @media only screen and (max-width: 600px) {
     .tagline a {
-      width: 100%;
+      width: 80%;
       background-color: #808080;
+      margin-right: 30px;
     }
   
     .tagline a:hover {
@@ -335,14 +356,14 @@ html {
     background-color: #DCDCDC;
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     .practice .left-section {
       display: none;
     }
   
     .practice .right-section {
       border-left: 0px;
-      padding: 16px 16px 32px 16px;
+      padding: 16px 0px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -373,7 +394,6 @@ html {
   
     .box img.mobile {
       display: flex;
-      width: 100%;
     }
   
     .content {
@@ -426,7 +446,7 @@ html {
     width: 100%;
   }
   
-  .course h6 {
+  .course h5 {
     padding-bottom: 1rem;
   }
   
@@ -447,7 +467,7 @@ html {
     color: gray;
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     .learning {
       border-top: 1px solid #DCDCDC;
       border-bottom: 1px solid #DCDCDC;
@@ -507,7 +527,7 @@ html {
     padding-bottom: 0px;
   }
   
-  .thesis h6 {
+  .thesis h5 {
     padding-top: 24px;
   }
   
@@ -520,7 +540,7 @@ html {
     margin-top: 32px;
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     .flex .right-section {
       display: none;
     }
@@ -535,7 +555,7 @@ html {
       display: none;
     }
   
-    .flex .left-section h6 {
+    .flex .left-section h5 {
       display: none;
     }
   }
@@ -582,7 +602,7 @@ html {
     color: #808080;
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     footer {
       border-top: 0px;
     }
