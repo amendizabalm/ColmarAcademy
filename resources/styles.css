@@ -27,8 +27,8 @@ html {
   }
 
   h2{
-    font-size: 1.8rem;
-    padding-bottom:
+    font-size: 1.5rem;
+    padding: 24px 0px;
   }
   
   h3 {
@@ -156,7 +156,6 @@ html {
   .left-section {
     width: 60%;
     padding: 32px 24px 32px 0px;
-    border-bottom: 1px solid #DCDCDC; 
   }
   
   .left-section img {
@@ -277,7 +276,7 @@ html {
   }
   
   .left-section p {
-    padding: 24px 24px 24px 0px;
+    padding: 0px 24px 8px 0px;
     width: 100%;
     line-height: 1.6;
   }
@@ -299,6 +298,7 @@ html {
     color: #4ba3f4;
     text-decoration: none;
     font-size: 14px;
+    font-weight: bold;
     display: block;
     padding-top: .9rem;
   }
@@ -315,7 +315,7 @@ html {
   
   .practice .right-section {
     border-left: 1px solid #DCDCDC;
-    padding: 16px 0px 32px 4px;
+    padding: 16px 0px 32px 0px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -393,7 +393,219 @@ html {
       width: 100%;
       margin-top: 16px;
     }
-  
+    
+    /* Courses Section */
+
+.learning {
+  background-color: rgb(197, 195, 195);
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.courses-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.courses-list {
+  display: none;
+}
+
+.course {
+  background-color: white;
+  width: 32%;
+  height: 16rem;
+  margin-bottom: 20px;
+}
+
+.course img {
+  width: 100%;
+}
+
+.course h6 {
+  padding-bottom: 1rem;
+}
+
+.course p {
+  padding-top: .55rem;
+}
+
+.course-content {
+  padding: 16px 16px 24px 16px;
+}
+
+.course-content span {
+  font-size: .8rem;
+  color: gray;
+}
+
+@media only screen and (max-width: 480px) {
+  .learning {
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    background-color: white;
+  }
+
+  .learning .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .courses-grid {
+    display: none;
+  }
+
+  .courses-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+.courses-list a {
+    background-color: #DCDCDC;
+    color: #383838;
+    text-decoration: none;
+    padding: 16px;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+  }
+
+  .courses-list a:hover {
+      background-color: #F5F5F5;
+    }
+
+  .courses-list a:active {
+      background-color: #F5F5F5;
+    }
+}
+
+
+/* Thesis Section */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section video {
+  width: 100%;
+  object-fit: contain;
+}
+
+.thesis p {
+  padding-top: 16px;
+  padding-bottom: 0px;
+}
+
+.thesis h6 {
+  padding-top: 24px;
+}
+
+.thesis .box img {
+  width: 35%;
+  padding: 16px;
+}
+
+.thesis .first-info {
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+  .flex .right-section {
+    display: none;
+  }
+
+  .flex .left-section {
+    width: 100%;
+    padding: 0px;
+  }
+
+
+  .flex .left-section p {
+    display: none;
+  }
+
+  .flex .left-section h6 {
+    display: none;
+  }
+}
+
+/* Footer Section */
+footer {
+  border-top: 1px solid #DCDCDC;
+  background-color: white;
+  height: 3.5rem;
+}
+
+footer p {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #383838;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .75rem;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.footer-nav a {
+  display: inline-block;
+  padding-right: 16px;
+  color: #383838;
+  font-size: .75rem;
+  cursor: auto;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #808080;
+}
+
+.footer-nav a:active {
+  color: #808080;
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    border-top: 0px;
+  }
+
+  footer .container {
+    margin-top: 24px;
+  }
+
+  footer .footer-nav {
+    display: none;
+  }
+
+  footer p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+
   
 
 
